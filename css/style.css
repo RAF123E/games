@@ -1,0 +1,83 @@
+
+
+
+
+
+
+header img{
+    max-height: 30vh;
+}
+nav .container{
+    background-color: #3A497B;
+    border-radius: 30px;
+}
+h5{
+    font-family: "Nerko One", cursive;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.active{
+    color: rgb(0, 153, 204) !important;
+    font-family: Comfortaa, cursive;
+    font-size:12px ;
+    font-weight: 400;
+    line-height: 18px;
+}
+.link{
+    color: white;
+    font-family: Comfortaa, cursive;
+    font-size:12px ;
+    font-weight: 400;
+    line-height: 18px;
+}
+.link:hover{
+    color: rgb(0, 153, 204);
+}
+.primary{
+    background-color: #3A497B;
+    color: white;
+}
+p{
+    color: white;
+    opacity: 0.5;
+    font-family: Comfortaa, cursive;
+    font-size:14px ;
+    font-weight: 400;
+    line-height: 21px;
+}
+body{
+    font-family: Comfortaa, cursive;
+}
+.item{
+    font-family: Comfortaa, cursive;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 11px;
+    text-align: center;
+}
+span{
+    font-size: small;
+    font-weight: 600;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+.col-md-3{
+    overflow: hidden;
+    cursor: pointer;
+    border: 3px solid black;
+    transition: all 1s;
+}
+.col-md-3:hover{
+    transform: scale(1.1);
+}
+#loader {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
